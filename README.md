@@ -42,7 +42,7 @@ Assuming you have Java 1.5 or later installed, to get started:
    Then from within IDEA, select File -> Open Project, and select your project directory.
 
 2. Put your Scala class files in src/main/scala. An example has been created in:
-src/main/scala/com/myapp/App.scala. SBT uses the same folder structure as Maven. 
+src/main/scala/com/cogfor/App.scala. SBT uses the same folder structure as Maven. 
 For more information see [here](https://github.com/harrah/xsbt/wiki/Getting-Started-Directories).
 
 3. Write your tests in src/test/scala (some examples have been included). To run all your tests:
@@ -51,7 +51,7 @@ For more information see [here](https://github.com/harrah/xsbt/wiki/Getting-Star
         
 4. To run just one test:
 
-        > test-only com.myapp.AppTest
+        > test-only com.cogfor.AppTest
         
 5. To launch the Scala interpreter, at the sbt prompt:
 
@@ -65,7 +65,3 @@ For more information see [here](https://github.com/harrah/xsbt/wiki/Getting-Star
         >reload
         
    from within SBT for your changes to take effect.
-
-For comments, questions, etc. please see the accompanying [blogpost](http://tech.damianhelme.com/scala-sbt-template).
-
-
